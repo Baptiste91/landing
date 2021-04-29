@@ -1,0 +1,27 @@
+.banner {
+    height: 200px;
+    background-image: linear-gradient(
+        rgba(126, 109, 109, 0.6),
+        rgba(80, 82, 94, 0.6)
+      ),url(../../images/parc3.png);
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(50%);
+    padding: 150px 0;
+    transition: background 10s ease;
+}
+
+/* .banner:hover {
+  background-size: 110%;
+} */
+
+.banner h1 {
+    color: #151E2D;
+}
+
+.banner p {
+    color: white;
+    opacity: .7;
+    font-size: 20px;
+    margin-bottom: 50px;
+}

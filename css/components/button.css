@@ -1,0 +1,23 @@
+.btn-yours {
+  color: #E0012A;
+  border: #E0012A solid 2px;
+  background:#151E2D, linear-gradient(
+        rgba(126, 109, 109, 0.6),
+        rgba(80, 82, 94, 0.6)
+      );
+  padding: 15px 35px;
+  font-weight: bold;
+  border-radius: 40px;
+  transition: background 1s ease;
+  font-family: Open Sans;
+}
+
+.btn-yours:hover {
+  color: #151E2D;
+  background-color: #E0012A, linear-gradient(
+        rgba(126, 109, 109, 0.6),
+        rgba(80, 82, 94, 0.6)
+      );
+  border: 3px solid #151E2D;
+  font-size: 20px;
+}
